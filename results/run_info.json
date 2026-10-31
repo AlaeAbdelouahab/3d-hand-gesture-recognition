@@ -1,0 +1,59 @@
+{
+  "args": {
+    "data": "./data/DHG2016",
+    "out": "results",
+    "cache": "cache/dhg_sequences.npz",
+    "models": [
+      "pose_svm",
+      "gru"
+    ],
+    "folds": 5,
+    "epochs": 60,
+    "seeds": 1,
+    "threads": 0,
+    "n_jobs": 2,
+    "quick": false
+  },
+  "quality": {
+    "n_sequences": 2800,
+    "n_frames_total": 84000,
+    "unit_guess": "metres",
+    "median_wrist_palm": 0.04697762802243233,
+    "p99_joint_speed_in_palm_lengths": 3.550733804702759
+  },
+  "dl_epoch_info": {
+    "gru": [
+      {
+        "fold": 1,
+        "seed": 0,
+        "val_acc": 0.9,
+        "best_epoch": 30
+      },
+      {
+        "fold": 2,
+        "seed": 0,
+        "val_acc": 0.7535714285714286,
+        "best_epoch": 48
+      },
+      {
+        "fold": 3,
+        "seed": 0,
+        "val_acc": 0.8892857142857142,
+        "best_epoch": 43
+      },
+      {
+        "fold": 4,
+        "seed": 0,
+        "val_acc": 0.95,
+        "best_epoch": 43
+      },
+      {
+        "fold": 5,
+        "seed": 0,
+        "val_acc": 0.85,
+        "best_epoch": 24
+      }
+    ]
+  },
+  "folds": 5
+}

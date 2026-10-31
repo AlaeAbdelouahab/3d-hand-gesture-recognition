@@ -1,0 +1,15 @@
+,pose_svm,gru
+Grab,0.475,0.505
+Tap,0.795,0.83
+Expand,0.745,0.83
+Pinch,0.595,0.645
+Rotation CW,0.73,0.83
+Rotation CCW,0.86,0.88
+Swipe Right,0.73,0.9
+Swipe Left,0.69,0.905
+Swipe Up,0.715,0.87
+Swipe Down,0.715,0.865
+Swipe X,0.78,0.95
+Swipe V,0.81,0.99
+Swipe +,0.76,0.905
+Shake,0.78,0.955

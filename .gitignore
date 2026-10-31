@@ -1,0 +1,17 @@
+DHG2016/
+data/
+archive*/
+cache/
+*.pkl
+*.npz
+results/oof_predictions.npz
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+.env
+.DS_Store
